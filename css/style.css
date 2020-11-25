@@ -1,0 +1,15 @@
+.f{display: flex;}
+.c{flex-direction: column;}
+.r{flex-direction: row;}
+.jcc{justify-content: center;}
+.jcsb{justify-content: space-between;}
+.tac{text-align: center;}
+
+body{margin: 0;}
+
+
+/* le padding auto de la page à gauche et à droites de x% */
+.vcenter{
+    width: calc(36%-100vw);
+    padding: 0 18% 0 18%;
+}
